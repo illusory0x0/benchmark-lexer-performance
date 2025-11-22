@@ -1,14 +1,11 @@
 // Generated using `moon info`, DON'T EDIT IT
-package "username/hello"
+package "illusory0x0/bench_lexer"
 
 // Values
 
 // Errors
 
 // Types and methods
-type Token
-impl Show for Token
-impl ToJson for Token
 
 // Type aliases
 

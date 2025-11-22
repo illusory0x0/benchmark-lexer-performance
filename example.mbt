@@ -16,7 +16,7 @@ priv enum Token {
   Keyword(StringView)
   Identifier(StringView)
   Number(StringView)
-} derive(Show,ToJson)
+} derive(Show, ToJson)
 
 ///|
 fn tokenize_two_pass(input : StringView) -> Array[Token] {
